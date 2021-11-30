@@ -137,6 +137,48 @@ footer {
 	margin: 20px 0 0;
 }
 
+.destinos {
+	width: 100%;
+	margin: 0 auto;
+	padding: 50px 0;
+	background: linear-gradient(#1200FF, #00E5FF);
+
+}
+
+.destinos li {
+	display: block;
+	text-align: center;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.destinos li:hover {
+	border-color: orange;
+}
+
+.destinos li:active {
+	border-color: #088C19;	
+}
+
+.destinos li:hover h2 {
+	font-size: 34px;
+}
+
+.destinos h2, a {
+	font-size: 30px;
+	font-weight: bold;
+	color: #00E5FF;
+	text-decoration: underline;
+
+}
+
+.destinos-descricao {
+	font-size: 18px;
+}
 @media screen and (max-width: 480px) {
 	.caixa, .principal, .conteudo-motivos, .mapa-conteudo{
 		width:auto;
