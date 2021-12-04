@@ -28,7 +28,7 @@ fieldset {
 .enviar {
 	width:40%;
 	padding: 15px 0;
-	background: purple;
+	background: #00E5FF;
 	color: white;
 	font-weight: bold;
 	font-size: 18px;
@@ -39,7 +39,7 @@ fieldset {
 }
 
 .enviar:hover {
-	background: darkorange;
+	background: #1200FF;
 	transform: scale(1.2);
 }
 
